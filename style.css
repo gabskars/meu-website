@@ -1,0 +1,142 @@
+/* Estilos globais */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e2dbbe;
+}
+
+header {
+  background-color: #188fa7;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  margin: 0 10px;
+}
+
+header nav a:hover {
+  color: #188fa7;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* Estilos para a seção "Sobre Mim" */
+#sobre-mim {
+  text-align: left;
+  padding: 20px;
+}
+
+#sobre-mim img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+/* Estilos para as listas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Página específica - Exemplo para a página "Sobre" */
+#sobre-mim {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Página específica - Exemplo para a página "Contato" */
+#contato {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+
+#contato ul li a {
+  color: #188fa7;
+}
+
+#habilidades {
+  font-size: 18px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#habilidades ul li a {
+  color: #2575fc;
+}
+
+#experiencia {
+  font-size: 18px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#experiencia ul li a {
+  color: #2575fc;
+}
+
+#educacao {
+  font-size: 18px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#educacao ul li a {
+  color: #2575fc;
+}
+
+.foto-interativa {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.foto-interativa:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 2px solid #188fa7; /* Adiciona uma borda ao passar o mouse */
+}
+
+/* Estilo para a caixa */
+.main-content {
+text-align: left;
+background-color: #ffffff; /* Fundo branco */
+border-radius: 10px; /* Bordas arredondadas */
+padding: 20px; /* Espaçamento interno */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+margin: 20px; /* Margem para afastar a caixa dos elementos ao redor */
+}
+
+.imagem-quadrada {
+width: 150px; /* Define a largura da imagem */
+height: 150px; /* Define a altura da imagem (quadrada) */
+object-fit: cover; /* Garante que a imagem se ajuste proporcionalmente dentro do quadrado */
+border-radius: 10px; /* Adiciona bordas arredondadas (opcional) */
+border: 5px solid #9dbbae; 
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra (opcional) */
+}
